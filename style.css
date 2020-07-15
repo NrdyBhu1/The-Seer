@@ -9,10 +9,31 @@
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5%;
+    cursor: default;
+    font-family: 'Concert One', cursive;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: #a6a6a6;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 14px;
+    background-color: red;
+}
+
+#groot{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
 }
 
 #para p{
+    cursor: default;
     font-size: 10vmin;
+    font-family: 'Rakkas', cursive;
 }
 
 #input-field{
@@ -23,6 +44,7 @@
     position: relative;
     transform: translateX(150px);
     width: 15%;
+    font-family: 'Concert One', cursive;
     transition: 0.5s;
 }
 
@@ -38,6 +60,7 @@
     transform: translateX(80%);
     background-color: #d2691e;
     color: #1e90ff;
+    font-family: 'Cairo', sans-serif;
     width:15%;
 }
 
@@ -57,6 +80,11 @@
     left: 500px;
     top: 100px;
     visibility: hidden;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    pointer-events: none;
+    
 }
 
 #main-picture.active{

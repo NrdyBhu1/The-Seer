@@ -3,7 +3,9 @@
     <head>
         <title>The Seer</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <!-- <link rel="stylesheet" href="sketch.js"> -->
+        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="favicon.png">
         <script src="sketch.js"></script>
         <div class="main-header">
             <h1>The Seer</h1>
@@ -11,13 +13,15 @@
     </head>
     <body>
         <section id="para">
+            <br>
             <p>Ask the seer what ever you wish. He shall answer as many times as you wish.</p>
+            <br>
         </section>
         <section id="main-body">
-            <img src="thinking.png" width=400px id="main-picture">
-            <img src="groot.jpg" id="groot"><br>
-            <input name="question" id="input-field" placeholder="Question here"><br>
+            <img src="thinking.png" width=400px id="main-picture" unselectable="on">
+            <img src="groot.jpg" id="groot" unselectable="on"><br><br>
+            <input name="question" id="input-field" placeholder="Question here"><br><br>
             <button id="main-button" onclick="checkAndImplement()""><h5>Ask</h5></button>
-        </section>
+        </section><br><br><br><br>
     </body>
 </html>
