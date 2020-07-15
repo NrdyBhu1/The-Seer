@@ -9,8 +9,8 @@ function hide(){
 }
 
 function checkAndImplement(){
-    var txt = document.getElementById("input-field").nodeValue;
-    if(txt == ""){
+    var input = document.querySelector("input");
+    if(input.value == ""){
         alert("Please type a question");
     }else{
         show();

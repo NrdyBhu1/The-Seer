@@ -21,13 +21,9 @@
     border-radius: 24px;
     text-align: center;
     position: relative;
-    left: 30%;
+    transform: translateX(150px);
     width: 15%;
     transition: 0.5s;
-}
-
-#input-field:hover{
-    width: 40%;
 }
 
 #input-field:focus{
@@ -39,14 +35,15 @@
     text-align: center;
     border-radius: 24px;
     transition: 1s;
-    position: relative;
-    left:40%;
-    background-color: chocolate;
-    color: dodgerblue;
+    transform: translateX(80%);
+    background-color: #d2691e;
+    color: #1e90ff;
+    width:15%;
 }
 
 #main-button:hover{
-    width:10%;
+    color: #56aaff;
+    background-color: #944309;
 }
 
 #main-button h5{
